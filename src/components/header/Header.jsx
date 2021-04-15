@@ -4,6 +4,9 @@ import './Header.css';
 function Header() {
   return <header>
     <div className="parallelogram">
+      {/* <p> */}
+        HEALTHCARE
+      {/* </p> */}
     </div>
   </header>
 };
