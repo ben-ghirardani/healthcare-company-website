@@ -1,7 +1,10 @@
 header {
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
   height: 50px;
   background-color: rgb(211, 211, 211);
+  box-shadow: 2px 2px rgb(169,169,169);
 }
 
 .parallelogram {
@@ -9,7 +12,7 @@ header {
   left: 100px;
   width: 350px;
   height: 70px;
-  transform: skew(-20deg);
+  transform: skew(-15deg);
   background: rgb(255, 255, 255);
   border: 1px solid rgb(211, 211, 211);
   box-shadow: 3px 3px 5px 1px rgb(128, 128, 128);
@@ -18,4 +21,19 @@ header {
   font-weight: bold;
   color: rgb(51, 122, 183);
   line-height: 70px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+button {
+  background-color: rgb(211, 211, 211);
+  border: 0;
+  color: rgb(51, 122, 183);
+  font-size: 20px;
+  text-shadow: 1px 1px rgb(255, 255, 255);
 }

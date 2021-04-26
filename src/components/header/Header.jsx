@@ -1,27 +1,40 @@
 import './Header.css';
-import { Link, Route, Switch } from 'react-router-dom';
-import LandingPage from '../landingPage/LandingPage';
-import Contact from '../contact/Contact.jsx';
+import { Link } from 'react-router-dom';
 
+// routing links are located in the header, components display in <App/>
 function Header() {
 
   return <header>
 
-    <div className="parallelogram">INOVOTECH</div>
+    <Link to="/">
+      <div className="parallelogram">
+        INOVOTECH
+      </div>
+    </Link>
 
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
+    <div className="button-wrapper">
+    <Link to="/" >
+      <button> Home </button>
+    </Link>
+    </div>
 
-    <Route path="/"> <LandingPage/> </Route>
-    <Route path="/contact"> <Contact/> </Route>
+    <div className="button-wrapper">
+    <Link to="/meetTheTeam" >
+      <button> Meet The Team </button>
+    </Link>
+    </div>
+
+    <div className="button-wrapper">
+    <Link to="/jobs" >
+      <button> Jobs </button>
+    </Link>
+    </div>
+
+    <div className="button-wrapper">
+    <Link to="/contact" >
+      <button> Contact </button>
+    </Link>
+    </div>
 
   </header>
 };

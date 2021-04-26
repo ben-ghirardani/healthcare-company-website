@@ -1,0 +1,44 @@
+.landing-page {
+  /* allows element to take up entire H & W of parent */
+  height: 100vh;
+  width: 100vw;
+  
+  font-size: 1em;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.top {
+  border: 2px solid purple;
+}
+
+p {
+  border: 1px solid red;
+  height: 20vh;
+  width: 65%;
+  padding: 5vw;
+}
+
+/* row and column used to create a grid with flex */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  align-items: center;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  align-items: center;
+}
