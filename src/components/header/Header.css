@@ -23,6 +23,10 @@ header {
   line-height: 70px;
 }
 
+.parallelogram:hover {
+  box-shadow: 5px 5px 5px 1px rgb(80, 80, 80);
+}
+
 .button-wrapper {
   display: flex;
   flex-direction: column;

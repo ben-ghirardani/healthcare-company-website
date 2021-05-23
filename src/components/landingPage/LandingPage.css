@@ -49,6 +49,10 @@
   box-shadow: 3px 3px 5px 1px rgb(128, 128, 128);
 }
 
+.headline-content:hover {
+  box-shadow: 5px 5px 5px 1px rgb(80, 80, 80);
+}
+
 .headline-content:before {
   content: '';
   position: absolute;
@@ -81,6 +85,10 @@
   height: 40vh;
   width: 44vw;
   box-shadow: 3px 3px 5px 1px rgb(128, 128, 128);
+}
+
+.virus-research:hover {
+  box-shadow: 5px 5px 5px 1px rgb(80, 80, 80);
 }
 
 .virus-research-text {
@@ -122,6 +130,10 @@
   background-repeat: no-repeat;
 }
 
+.hands:hover {
+  box-shadow: 5px 5px 5px 1px rgb(80, 80, 80);
+}
+
 .hands:before {
   content: '';
   position: absolute;
@@ -161,6 +173,10 @@
   justify-content: center;
 }
 
+.our-story:hover {
+  box-shadow: 5px 5px 5px 1px rgb(80, 80, 80);
+}
+
 .our-story:before {
   content: '';
   position: absolute;
@@ -193,6 +209,10 @@
   background: url('../img/team.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.join-our-team:hover {
+  box-shadow: 5px 5px 5px 1px rgb(80, 80, 80);
 }
 
 .team-text {
