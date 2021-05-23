@@ -1,13 +1,11 @@
-To add to Header - 
+To add - 
 
-Meet the Team - a series of cards with photos of staff and a brief description of their role
-Jobs - listings for openings
-Contact Us - a form to fill out to contact the company
+to card with circular image -> a very faded background image with some text to the left.
+to the hands image -> opaque text box?
 
-Main Page content to include some cards using medical images and linear gradient with generic company goals like "your health is our passion"
 
-Also Main Page - essentially advertising themselves - "the leading suuplier of military combat drugs", "making the world safer". What they do, but general.
 
-*** Style - 
+Description - 
 
-white background, coloured cards with a slight box-shadow to give definition
+I looked at a few biotech websites and made an attempt to copy some of the styles and effects they used as practice in css
+includes- 

@@ -19,18 +19,6 @@ function Header() {
     </div>
 
     <div className="button-wrapper">
-    <Link to="/meetTheTeam" >
-      <button> Meet The Team </button>
-    </Link>
-    </div>
-
-    <div className="button-wrapper">
-    <Link to="/jobs" >
-      <button> Jobs </button>
-    </Link>
-    </div>
-
-    <div className="button-wrapper">
     <Link to="/contact" >
       <button> Contact </button>
     </Link>

@@ -1,49 +1,61 @@
 import './LandingPage.css';
 
 
-// is there a more appropriate html tag for the cards?
 function LandingPage() {
   return <div className="landing-page">
 
-    <div className="row">
+    <div className="row top">
       <div className="double-column">
-        <p>Top Content</p>
+        <div className="headline-content">
+          <div className="headline-text">
+            Pioneering 
+            <br></br>
+            Research
+          </div>    
+        </div>
       </div>
     </div>
 
-    <br></br>
-    <br></br>
-
     <div className="row">
       <div className="column">
-        <p>1</p>
+
+        <div className="virus-research">
+          <div className="virus-research-text">
+              Solving<br/>the human body’s<br/>most complex<br/>mysteries
+            </div>
+          <div className="research-circle">
+          </div>
+        </div>
       </div>
+
       <div className="column">
-        <p>2</p>
+        
+        <div className="hands">
+          <div className="hands-text">
+            Your future is safe<br/>in our hands
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <br></br>
-    <br></br>
+    <div className="row bottom">
+      <div className="column">
 
-    <div className="row">
-      <div className="column">
-        <p>3</p>
+        <div className="our-story">
+          <div className="our-story-text">
+            Inovotech: Our Story
+          </div>
+        </div>
       </div>
-      <div className="column">
-        <p>4</p>
-      </div>
-    </div>
 
-    <br></br>
-    <br></br>
+      <div className="column">
 
-    <div className="row">
-      <div className="column">
-        <p>5</p>
-      </div>
-      <div className="column">
-        <p>6</p>
+        <div className="join-our-team">
+          <div className="team-text">
+            Join The Team
+          </div>
+        </div>
       </div>
     </div>
 
