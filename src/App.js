@@ -1,20 +1,12 @@
 import './App.css';
-import { Route, Switch } from 'react-router-dom';
 import Header from './components/header/Header.jsx';
 import LandingPage from './components/landingPage/LandingPage.jsx';
-import Contact from './components/contact/Contact.jsx';
-import PageNotFound from './components/pageNotFound/PageNotFound.jsx';
 
-// routing links are located in the header, components display in <App/>
 function App() {
   return (
     <div className="App">
       <Header/>
-        <Switch>
-          <Route path="/" exact> <LandingPage/> </Route>
-          <Route path="/contact"> <Contact/> </Route>
-          <Route component={PageNotFound}/>
-        </Switch>
+        <LandingPage/>
     </div>
   );
 }

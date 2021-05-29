@@ -1,7 +1,7 @@
 .landing-page {
   /* allows element to take up entire H & W of parent */
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
 }
@@ -13,15 +13,6 @@
   flex-wrap: wrap;
   width: 100%;
   padding-top: 5vh;
-}
-
-/* give extra space at top and bottom of page */
-.top {
-  padding-top: 10vh;
-}
-
-.bottom {
-  padding-bottom: 100px;
 }
 
 .column {
@@ -38,6 +29,15 @@
   flex-basis: 100%;
   flex: 2;
   align-items: center;
+}
+
+/* give extra space at top and bottom of page */
+.top {
+  padding-top: 10vh;
+}
+
+.bottom {
+  padding-bottom: 100px;
 }
 
 .headline-content { 
@@ -226,4 +226,38 @@
   text-align: center;
   line-height: 10vh;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 1280px) {
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 5vh;
+  }
+
+  .headline-content { 
+    margin-top: 3vh;
+  }
+
+  .virus-research {
+    width: 75vw;
+    margin-bottom: 5vh;
+  }
+
+  .hands {
+    width: 75vw;
+  }
+
+  .our-story {
+    width: 75vw;
+    margin-bottom: 5vh;
+  }
+
+  .join-our-team {
+    width: 75vw;
+  }
+
 }
